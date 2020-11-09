@@ -1,5 +1,7 @@
 package com.wallet;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,6 +15,7 @@ class WalletApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertEquals(1, 1);
 	}
 
 }
